@@ -126,7 +126,7 @@ h6 {
 
 #header {
   padding: 30px 0;
-  height: 192px;
+  height: 92px;
   position: fixed;
   left: 0;
   top: 0;
@@ -138,7 +138,7 @@ h6 {
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
-  height: 72px;
+  height: 82px;
   transition: all 0.5s;
 }
 
@@ -166,8 +166,9 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  margin-top:-3em;
 
+  margin-top:-2em;
+  /* background-color: red; */
 }
 
 /*--------------------------------------------------------------
@@ -1371,6 +1372,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  margin-top:-40px;
 }
 
 #footer .footer-top .footer-info h3 {
