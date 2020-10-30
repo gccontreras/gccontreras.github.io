@@ -126,7 +126,7 @@ h6 {
 
 #header {
   padding: 30px 0;
-  height: 92px;
+  height: 192px;
   position: fixed;
   left: 0;
   top: 0;
@@ -142,11 +142,11 @@ h6 {
   transition: all 0.5s;
 }
 
-#header #logo {
+#header #logo a{
   float: left;
 }
 
-#header #logo h1 {
+#header #logo h1 a {
   font-size: 34px;
   margin: 0;
   padding: 0;
@@ -166,6 +166,8 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  margin-top:-3em;
+
 }
 
 /*--------------------------------------------------------------
@@ -346,6 +348,7 @@ h6 {
 }
 
 .nav-menu ul li {
+  /* min-width: 180px; */
   min-width: 180px;
 }
 
